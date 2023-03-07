@@ -22,3 +22,8 @@ export type RootStackParamList = {
   Signup: undefined;
   Welcome: undefined;
 };
+
+export enum AuthMode {
+  LOGIN = 'signInWithPassword',
+  SIGNUP = 'signUp',
+}

@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.11",
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/native-stack": "^6.9.12",
     "@types/react": "~18.0.27",
@@ -18,7 +19,7 @@
     "react": "18.2.0",
     "react-native": "0.71.3",
     "react-native-dotenv": "^3.4.8",
-    "typescript": "^4.9.4"
+    "expo-splash-screen": "~0.18.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -27,7 +28,12 @@
     "@typescript-eslint/parser": "^5.54.1",
     "babel-plugin-transform-inline-environment-variables": "^0.4.4",
     "eslint": "^8.35.0",
-    "eslint-plugin-react": "^7.32.2"
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "typescript": "^4.9.5"
   },
   "private": true
 }

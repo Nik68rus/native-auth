@@ -15,7 +15,7 @@ import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
 interface Props {
   isLogin?: boolean;
-  onAuthenticate?: (data: IAuthData) => void;
+  onAuthenticate: (data: IAuthData) => void;
 }
 
 type ScreenNavigationProp = NativeStackNavigationProp<RootStackParamList>;
